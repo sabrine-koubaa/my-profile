@@ -1,0 +1,107 @@
+body {
+	background-color: rgb(243, 243, 243);
+	font-family: poiret one;
+	font-weight: lighter;
+	text-align: justify;
+}
+
+
+
+h1 { 
+	color: #1B8C0D;
+	font-family: poiret one, sans-serif;
+	letter-spacing: 20px;
+	font-size: 55px;
+	text-align: center;
+ }
+
+
+ h2 { 
+	font-family: poiret one, sans-serif;
+	letter-spacing: 5px;
+  }
+
+ul {
+	font-size: 30px;
+	text-align: center;
+}
+
+a {
+	color: #1B8C0D;
+	line-height: 80px;
+	text-align: center;
+}
+
+a:hover {
+	color: #FFFFFF;
+	text-decoration: none;
+
+}
+
+img {
+	height: 200px;
+	margin: 30px 30px 30px 300px;
+
+}
+
+div{
+	background-color: white;
+	padding: 35px;
+	margin: 5px 30px;
+	border-radius: 5px;
+	box-shadow: 0 10px 30px rgba(0,0,0,.1);
+	text-align: center;
+}
+
+
+.inline{
+	list-style: none;
+	display: inline;
+	margin-right: 10px;
+}
+.container{
+	widows: 700px;
+	margin: 40px auto;
+}
+
+.btn-blue:hover {
+	background-color: #0B1123;
+	color : #92A7BC;
+}
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1)
+	margin: 20px 0px;
+	text-align: center;
+
+}
+
+#introduction {
+	background-color: #BECCBE;
+	text-align: center;
+}
+
+#footer {
+	background-color: #BECCBE;
+}
+
+@media (max-width: 960px) {
+	.container {
+		widows: 700px;
+	}
+}
+
+@media (max-width: 720px) {
+	.container {
+		width: 500px;
+	}
+}
+
+@media (max-width: 540px) {
+	.container {
+		width: 300px;
+	}
+}
+
